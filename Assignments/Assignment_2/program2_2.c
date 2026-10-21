@@ -1,0 +1,26 @@
+//Accept one numberfrom user and print tha number of * on screen
+
+#include<stdio.h>
+
+void Display(int iNo)
+{
+    int iCnt = 0;
+    //Write Updater
+    while(iNo>iCnt)
+    {
+        printf("*");
+        iNo--;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter number");
+    scanf("%d",&iValue);
+
+    Display(iValue);
+
+    return 0;
+}
